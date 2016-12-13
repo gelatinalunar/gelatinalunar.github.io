@@ -1,0 +1,7 @@
+Alumnos:	Nadia Acosta
+		Nicol Riquelme
+Turno: 		Tarde
+Materia: 	Computación para animación y web
+Final: 		Computación para animación y web
+Carrera: 	Diseño Gráfico
+Url:		gelatinalunar.site88.net

@@ -1,0 +1,51 @@
+@charset "utf-8";
+h1 {color:white;}
+
+main {
+background:url(../images/fondo1.png);
+
+}
+img {max-width:100%; margin-bottom:1em}
+
+.bolaDiv {
+	
+}
+.bolaDiv img {float:left;}
+.bolaTitulo {
+	color:white;
+	float:left;
+	margin-left:1em;
+	font-size:16pt;
+	line-height:37px;
+}
+#tituloImg {	margin-bottom:2em;}
+
+#descripcion {text-align:left;width:85%; margin: 0 auto; margin-bottom:3em}
+#descripcion img {margin-left:2em;}
+#descripcion h1 {margin-left:2em; color:white;}
+#descripcion p {padding-left:6em;color:white; clear:both; }
+@media screen and (min-width:480px) {
+	
+	#entradas img { margin: 1em;}
+}
+
+
+@media screen and (min-width:1024px) {
+	#tituloImg {	margin-bottom:2em;}
+}
+
+ #entradas img, #packs img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#entradas img:hover, #packs img:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}

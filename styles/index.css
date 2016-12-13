@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#seccionCupulas {background-image: url(../images/fondocupulas.png); margin-bottom: -1px;}
+
+
+#banner1 {width:100%;margin-top:-32px;margin-bottom:-4px;}
+#banner1:hover {box-shadow: 1px 1px 16px #4D2D7D;}
+.cupula { width:100%; height:248px;float:left; background-repeat:no-repeat; background-position:center;margin-top: 40px; margin-bottom:40px;}
+#cupula1 { background-image: url(../images/foto1.png)
+	}
+#cupula1:hover { background-image: url(../images/hover1.png)
+	}
+#cupula2 { background-image: url(../images/foto2.png)
+	}
+#cupula2:hover { background-image: url(../images/hover2.png)
+	}
+#cupula3 { background-image: url(../images/foto3.png)
+	}
+#cupula3:hover { background-image: url(../images/hover3.png)
+	}
+#cupula4 { background-image: url(../images/foto4.png)
+	}
+#cupula4:hover { background-image: url(../images/hover4.png)
+	}
+
+#video {width:100%; height:500px;}
+#spotify {background-image:url(../images/spotifymovil.png);width:100%; height:510px; background-position:center; background-repeat:no-repeat; text-align:center; margin-top:50px;}
+#playlist { margin-top: 60px;}
+
+
+
+
+@media screen and (min-width:480px) {
+
+.cupula { width:50%;}
+}
+
+@media screen and (min-width:1024px) {
+	
+	
+	#banner1 {width:100%;margin-top:-32px;margin-bottom:-4px;}
+#cupulas {    width: 70%;
+    margin: 0 auto;
+	padding-bottom:20px;}
+.cupula { width:50%;    transition: background-image 0.2s ease-in-out;}
+#playlist { margin-right: 40px;}
+#spotify {background-image:url(../images/spotify.png);text-align:right;}
+main {background-color:rgba(255, 255, 255, 0);
+	    box-shadow: 0px 0px 0px #111111;}
+	}

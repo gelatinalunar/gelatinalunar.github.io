@@ -1,0 +1,89 @@
+<html>
+<head>
+	<!-- Metas -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- Styles -->
+	<link rel="stylesheet" href="styles/general.css">
+	<link rel="stylesheet" href="styles/contacto.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300' rel='stylesheet' type='text/css'>
+	<!-- Scripts -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="scripts/jquery.slicknav.js"></script>
+	<script type="text/javascript">$(document).ready(function(){$('#menu').slicknav();});</script>
+	<title>Contacto</title>
+</head>
+<body>
+	<div id="container">
+		<nav>
+			<header>
+				<a href="index.html" id="logo"></a>
+			</header>
+			<ul id="menu">
+					<div class="menuitem"><li><a href="musica.html">MÚSICA</a></li></div>
+					<div class="menuitem"><li><a href="media.html">FESTIVAL</a></li></div>
+					<div class="menuitem"><li><a href="tickets.html">TICKETS</a></li></div>
+					<div class="menuitem"><li><a href="informacion.html">INFORMACIÓN</a></li></div>
+					<div class="menuitem"><li><a href="contacto.html">CONTACTO</a></li></div>
+			</ul>
+		</nav>
+
+		<main>
+        <section>
+	<div id="foto">
+	<img id="imagen" src="images/foto.png" alt="foto">
+	</div>
+	<div id="formulario">
+	<div id="center">
+	<h1>ESCRIBINOS !!</h1>
+
+
+	<form method="post" action="respuesta.php">
+	 <p>  <label for="nombre">Nombre:</label>
+	  <input type="text" autofocus name="nombre" id="nombre" required>
+	</p>
+	<p>   
+	  <label for="telefono">Teléfono:</label>
+	  <input type="text" name="telefono" id="telefono">
+	</p>
+
+	<p>   
+	  <label for="casilla">Mail:</label>
+	  <input type="email" name="casilla" id="casilla">
+	</p>
+	<p>   
+	  <label for="fecha">Fecha:</label>
+	  <input type="date" name="fecha" id="fecha" >
+	</p>
+
+	<p>   
+	  <label for="comentario">Comentario:</label>
+	  <textarea name="comentario" id="comentario"></textarea>
+
+	<p id="env">  <input type="submit" value="Enviar"> </p>
+
+	</form>
+	</div>
+	</div>
+    
+	</section>
+		
+  <div id="bajo">
+  </div>
+  </main>
+
+		<footer>
+			            <div id="iconos">
+            	<a href="https://www.facebook.com/" target="_blank" class="icono" id="icono1"> </a>
+                <a href="https://twitter.com/" target="_blank" class="icono" id="icono2"></a>
+                <a href="https://www.youtube.com/" target="_blank" class="icono" id="icono3"></a>
+                <a href="https://mail.google.com/" target="_blank"class="icono" id="icono4"></a>	
+            
+            </div><!-- -->
+		</footer>
+	</div>
+</body>
+</html>

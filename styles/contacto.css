@@ -1,0 +1,33 @@
+	input[type="text"], input[type="date"], input[type="email"], textarea {width: 173px;} 
+	label {    width: 100px;  display: inline-block;}
+	input[type="submit"] {width:100%;}
+	#env {width:100%; text-align:center;}
+	#formulario{padding-bottom:2em;}
+		#center{
+		margin: 0 auto;
+    width: 90%;
+    text-align: center;
+	}
+/********************************************** INICIO TABLET  */
+@media screen and (min-width:480px) {
+	#imagen {float:left;width:50%}
+	#bajo {clear:both;}
+	#formulario{float:left;width:50%;}
+	#env {text-align:center;}
+	
+	#center {
+    margin: 0 auto;
+    width: 65%;
+    text-align: left;}
+/********************************************** FIN TABLET  */
+
+/********************************************** INICIO PC  */
+@media screen and (min-width:1024px) {
+	input[type="submit"] {width:initial;}
+	#env {margin-left: 41px;}
+	#center{
+    width: 55%;
+	}
+	
+	
+}
